@@ -101,6 +101,8 @@ cc_defaults {
 cc_library{
     name: "libdng_sdk",
     vendor_available: true,
+    polly: false,
+
     defaults: ["libdng_sdk-defaults"],
 
     cflags: ["-DqDNGValidate=0"],
